@@ -9,6 +9,7 @@ import {NgxsLoggerPluginModule} from '@ngxs/logger-plugin';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { UserState } from './shared/states/users/user.state';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxsModule.forRoot(),
+    NgxsModule.forRoot([UserState]),
     NgxsReduxDevtoolsPluginModule.forRoot(),
     NgxsLoggerPluginModule.forRoot(),
     SharedModule,

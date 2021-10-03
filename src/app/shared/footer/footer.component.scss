@@ -1,0 +1,49 @@
+.rodape {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  a {
+    color: yellow;
+    margin-right: 20px;
+  }
+  a:hover {
+    color: whitesmoke;
+    font-weight: 700;
+  }
+  a:link {
+    text-decoration: none;
+  }
+}
+
+// .rodape {
+//   position: absolute;
+//   bottom: 0;
+//   justify-content: flex-end;
+// }
+
+// rodape da Mary
+
+// .rodape {
+//   background-color: #002b5c;
+//   position: absolute;
+//   bottom: 0;
+//   justify-content: flex-end;
+//   width: 100%;
+
+//   .texto {
+//     font-size: 0.9rem;
+//     font-weight: 300;
+//     color: #fff;
+//     a {
+//       font-weight: 400;
+//       color: #fff;
+//     }
+
+//     a:link {
+//       text-decoration: none;
+//     }
+//     a:hover {
+//       color: rgb(255, 196, 0);
+//     }
+//   }
+// }

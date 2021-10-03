@@ -3,12 +3,12 @@
     {
       "id": 1,
       "name": "Uxazada",
-      "idade": 21
+      "age": 21
     },
     {
       "id": 2,
       "name": "A espadaxin do Angular",
-      "idade": 25
+      "age": 25
     }
   ]
 }
